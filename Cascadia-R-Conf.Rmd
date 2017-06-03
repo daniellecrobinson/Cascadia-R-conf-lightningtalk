@@ -1,5 +1,5 @@
 ---
-title: "A Lightning Primer on Open Source Community Building"
+title: "⚡ A Lightning Primer on Open Source Community Building ⚡" 
 author: "Danielle Robinson, Mozilla Science Fellow"
 date: "6/2/2017"
 output:
@@ -22,10 +22,13 @@ img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/TeachR-contrib.png")
 
 ## How to build a community around your project?
 
-- Writing good docs
-- Communication and management
-- Most people don't get trained in how to do this
-- Also, it's hard to prioritize
+- Writing good docs ✏️
+
+- Communication and management 💬
+
+- Most people don't get trained in how to do this 🤷
+
+- Also, it's hard to prioritize ⏰
 
 ## Mozilla Resources
 
@@ -56,7 +59,7 @@ grid.raster(img)
 ```
 
 ## One example
-... and this might feel cheesy
+... and this might feel cheesy 🧀
 ```{r fig.align="center", fig.width=8, fig.height=5,echo=FALSE}
 library(png)
 library(grid)
@@ -64,7 +67,7 @@ img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/open_canvas_example.p
  grid.raster(img)
 ```
 
-## Less talk, more action
+## ⚡ Less talk, more action ⚡ 
 Want to learn more? Join me at [Open Source Bridge](http://opensourcebridge.org/attend/)
  for "microWorking Open Workshop (microWOW): Launch Your Open Project!" 6/21 10am-11:45
 
@@ -76,9 +79,12 @@ img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/OS-Bridge-session.png
 ```
 
 ## Thank you!
-Stay in touch! 
+Stay in touch!👋
+
 @[daniellecrobins](https://twitter.com/daniellecrobins)
+
 @[MozillaScience](https://twitter.com/MozillaScience)
+
 ```{r fig.width=4, fig.height=3,echo=FALSE}
 library(png)
 library(grid)

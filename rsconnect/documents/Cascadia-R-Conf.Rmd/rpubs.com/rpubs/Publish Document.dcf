@@ -1,0 +1,8 @@
+name: Publish Document
+title:
+account: rpubs
+server: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/281927/100be25fc9c14805b3300530b1f146ae
+bundleId: https://api.rpubs.com/api/v1/document/281927/100be25fc9c14805b3300530b1f146ae
+url: http://rpubs.com/daniellecrobins/281927
+when: 1496510022.83871
