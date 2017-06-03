@@ -1,0 +1,85 @@
+---
+title: "A Lightning Primer on Open Source Community Building"
+author: "Danielle Robinson, Mozilla Science Fellow"
+date: "6/2/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## How to build a community around your project?
+[Teach-R Project](https://github.com/marcosvital/teach-R-project)
+```{r fig.width=8, fig.height=5,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/TeachR-contrib.png")
+ grid.raster(img)
+```
+
+## How to build a community around your project?
+
+- Writing good docs
+- Communication and management
+- Most people don't get trained in how to do this
+- Also, it's hard to prioritize
+
+## Mozilla Resources
+
+- [Mozilla Open Leadership Training online materials](https://mozilla.github.io/open-leadership-training-series/)
+- [A mentorship program](https://medium.com/@MozOpenLeaders/getting-ready-for-open-leadership-training-round-3-d7d0065f9c38)
+- [Working Open Workshops](https://daniellecrobinson.github.io/mini-wow-pdx/)
+
+```{r fig.align="center", fig.width=5, fig.height=4,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/miniWOWPDX-2017-group-pic.png")
+ grid.raster(img)
+```
+
+## Open Leadership Training R Projects {.columns-2}
+```{r fig.align="left", fig.width=4, fig.height=4,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/RRROBOTS.png")
+grid.raster(img)
+```
+
+```{r fig.align="right", fig.width=4, fig.height=4,echo=FALSE}
+library(png)
+library(grid)
+img <-readPNG("~/Documents/Cascadia-R-conf/Teach-R.png")
+grid.raster(img)
+```
+
+## One example
+... and this might feel cheesy
+```{r fig.align="center", fig.width=8, fig.height=5,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/open_canvas_example.png")
+ grid.raster(img)
+```
+
+## Less talk, more action
+Want to learn more? Join me at [Open Source Bridge](http://opensourcebridge.org/attend/)
+ for "microWorking Open Workshop (microWOW): Launch Your Open Project!" 6/21 10am-11:45
+
+```{r fig.align="center", fig.width=8, fig.height=4,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/OS-Bridge-session.png")
+ grid.raster(img)
+```
+
+## Thank you!
+Stay in touch! 
+@[daniellecrobins](https://twitter.com/daniellecrobins)
+@[MozillaScience](https://twitter.com/MozillaScience)
+```{r fig.width=4, fig.height=3,echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("~/Documents/Cascadia-R-conf/Mozilla-science-lab.png")
+ grid.raster(img)
+```
