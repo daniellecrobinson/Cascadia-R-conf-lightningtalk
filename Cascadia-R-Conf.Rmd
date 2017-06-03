@@ -2,7 +2,9 @@
 title: "A Lightning Primer on Open Source Community Building"
 author: "Danielle Robinson, Mozilla Science Fellow"
 date: "6/2/2017"
-output: ioslides_presentation
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r fig.width=8, fig.height=5,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/TeachR-contrib.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/TeachR-contrib.png")
  grid.raster(img)
 ```
 
@@ -34,7 +36,7 @@ img <- readPNG("~/Documents/Cascadia-R-conf/TeachR-contrib.png")
 ```{r fig.align="center", fig.width=5, fig.height=4,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/miniWOWPDX-2017-group-pic.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/miniWOWPDX-2017-group-pic.png")
  grid.raster(img)
 ```
 
@@ -42,14 +44,14 @@ img <- readPNG("~/Documents/Cascadia-R-conf/miniWOWPDX-2017-group-pic.png")
 ```{r fig.align="left", fig.width=4, fig.height=4,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/RRROBOTS.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/RRROBOTS.png")
 grid.raster(img)
 ```
 
 ```{r fig.align="right", fig.width=4, fig.height=4,echo=FALSE}
 library(png)
 library(grid)
-img <-readPNG("~/Documents/Cascadia-R-conf/Teach-R.png")
+img <-readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/Teach-R.png")
 grid.raster(img)
 ```
 
@@ -58,7 +60,7 @@ grid.raster(img)
 ```{r fig.align="center", fig.width=8, fig.height=5,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/open_canvas_example.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/open_canvas_example.png")
  grid.raster(img)
 ```
 
@@ -69,7 +71,7 @@ Want to learn more? Join me at [Open Source Bridge](http://opensourcebridge.org/
 ```{r fig.align="center", fig.width=8, fig.height=4,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/OS-Bridge-session.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/OS-Bridge-session.png")
  grid.raster(img)
 ```
 
@@ -80,6 +82,6 @@ Stay in touch!
 ```{r fig.width=4, fig.height=3,echo=FALSE}
 library(png)
 library(grid)
-img <- readPNG("~/Documents/Cascadia-R-conf/Mozilla-science-lab.png")
+img <- readPNG("~/Documents/Cascadia-R-conf-lightiningtalk/Mozilla-science-lab.png")
  grid.raster(img)
 ```
